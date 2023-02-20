@@ -31,9 +31,31 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 ## My process
+I decided to start with the Mobile first approach because it's more easier use media queries to adapt your code for desktop browsers.
 
+In this case, I decided to wrap all the main content on a \#container, using an ID because this element will not be repeated, so there's no need for a class.
 
+I added the image inside the \# container and try to add a good description on the 'alt' atribute. Also, I use an <h1\> to wrap the most important text and set the  
 
+NOTE: STRUGGLED WITH IMAGE COLOR CHANGE A) INNER SHADOW B) SEPIA FILTER AND HUE ROTATE.
+
+C) PUT A DIV OVER THE IMAGE AND GIVE IT SOME BACKGROUND-COLOR
+.image {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 15rem;
+
+}
+.image-overlay {
+    position: absolute;
+    background-color: hsla(277, 64%, 61%, 0.555);
+}
+
+D) DIRECTLY EDIT THE PHOTO IN PHOTOSHOP.
+
+USE CONTENT TO CHANGE IMG FILE
+
+PARENT * {} TO SELECT PARENT AND CHILDREN
 ### Built with
 
 - Semantic HTML5 markup
